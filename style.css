@@ -39,6 +39,6 @@ body ::before {
 body ::after {
     /* Posiciona a luz azul */
     background: #2563eb;
-    top: 20%;
-    left: 25%;
+    bottom: 20%;
+    right: 25%;
 }
