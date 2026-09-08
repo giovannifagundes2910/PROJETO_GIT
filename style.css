@@ -29,3 +29,9 @@ body ::before, body::after {
     z-index: 0;
 }
 
+body ::after {
+    /* Posiciona a luz vermelha */
+    background: #dc2626;
+    top: 20%;
+    left: 25%;
+}
