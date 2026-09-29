@@ -128,11 +128,18 @@ p {
 
 /* Segunda parte do nosso css */
 
-.conteudo{
-    /* Define o tamanho e a posição da nova sessão */
+.conteudo {
+    /* Define o tamanho e a posição do card*/
     position: relative;
     z-index: 1;
     width: 100%;
-    max-width: 100px;
+    max-width: 1000px;
     text-align: center;
+}
+
+.conteudo h2 {
+    /* Estiliza o título da nova sessão */
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 30px;
 }
