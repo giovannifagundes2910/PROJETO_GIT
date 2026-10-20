@@ -203,4 +203,10 @@ p {
     /* Organiza os cartões um abaixo do outro quando a tela for pequena */
     grid-template-columns: 1fr;
     }
+
+    
+    .conteudo h2 {
+        /* Diminui o tamanho do título no celular */
+        font-size: 1.6rem;
+    }
 }
