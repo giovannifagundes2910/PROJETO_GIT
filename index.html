@@ -72,12 +72,50 @@
 
     <!-- PARTE 3: NOVAS FUNCIONALIDADE   -->
 
-    <!-- NOVO: links internos levam o visitante até cada seção pelo-->
+    <!-- NOVO: links internos levam o visitante até cada seção pelo seu id.-->
      <nav class="menu-estudo" aria-label="Navegação dos estudos">
         <a href="#comandos">Consultar comandos</a>
         <a href="#atividade">Minha atividade</a>
         <a href="#materiais">Materiais de apoio</a>
         </nav>
-        
+
+        <section class="conteudo estudo" id="comandos">
+            <h2>Comandos para praticar</h2>
+            <p>Clique em um comando para abrir sua explicação. No teclado, use Tab e Enter.</p>
+
+            <!--  NOVO: details abre e fecha sem JavaScript: summarv é o título clicável. -->
+              <details>
+                <summary>1. git init - iniciar um repositório</summary>
+                <p>Execute na pasta do projeto para começar a controlar suas versões.</p>
+                <!-- A tag code identifica um trecho de código ou um comando. -->
+                 <code>git init</code>
+              </details>
+              <details>
+                <summary>2. git status - conferir as alterações</summary>
+                <p>Mostra quais arquivos foram modificados e quais estão preparados para o próximo commit.</p>
+                <code>git status</code>
+              </details>
+              <details>
+                <summary>3. git add - preparar os arquivos</summary>
+                <p>Prepara as alterações dos dois arquivos para o próximo commit. Ainda não cria uma versões.</p>
+                <code>git add index.html styles.css</code>
+              </details>
+              <details>
+                <summary>4. commit - registrar uma versão</summary>
+                <p>Resgistra as alterações preparadas. Escreva uma mensagem que explique o que você fez.</p>
+                <code>git commit -m "Adiciona area de estudos"</code>
+              </details>
+              <details>
+                <summary>5. git log - consultar o histórico</summary>
+                <p>Exibe os commits de forma resumida, com um registro por linha.</p>
+                <code>git log --oneline</code>
+              </details>
+              <details>
+                <summary>6. git push - enviar para o GitHub</summary>
+                <p>Envia os commits para o repositório remoto. Este exemplo exige um remoto chamado origin,
+                    uma branch chamada main e autenticação configurados com o professor.</p>
+                    <code>git push -u origin main</code>
+              </details>
+        </section>
 </body>
 </html>
